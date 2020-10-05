@@ -2,7 +2,7 @@
 Pilo'Press Gulp Config containing various front-end scripts.
 
 ## 🔥 Install
-- In the terminal: `npm install`
+- **Open the terminal** in the folder and run: `npm install`
 
 ## 🔨 Scripts
 
