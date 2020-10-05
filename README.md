@@ -1,5 +1,5 @@
 # PiloPress-Gulp-Config
-Pilo'Press Gulp Config containing various scripts.
+Pilo'Press Gulp Config containing various front-end scripts.
 
 ## 🔨 Scripts
 
