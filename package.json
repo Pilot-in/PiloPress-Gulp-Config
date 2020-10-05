@@ -1,0 +1,51 @@
+{
+  "name": "native-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/gulpfile.babel.js",
+  "scripts": {
+    "gulp": "cd ./build && gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "fibers": "^4.0.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.2.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-ttf2woff2": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "merge-stream": "^2.0.0",
+    "postcss-assets": "^5.0.0",
+    "sass": "^1.23.7",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^5.2.1"
+  }
+}

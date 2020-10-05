@@ -1,0 +1,44 @@
+{
+    "app": {
+        "url":          "config-build.test"
+    },
+
+    "assets": {
+        "src": {
+            "dir":      "../assets/src/",
+            "scss":     "../assets/src/scss/**/*.scss",
+            "img":      "../assets/src/img/**/*.{gif,png,jpg,jpeg,svg}",
+            "fonts":    "../assets/src/fonts/**/*.{ttf,otf}",
+            "js":       "../assets/src/js/!(*.min).js",
+            "jsLib":    "../assets/src/js/lib/**/*"
+        },
+        "dist": {
+            "dir":      "../assets/dist/",
+            "css":      "../assets/dist/css/",
+            "cssMin":   "../assets/dist/css/**/*.min.css",
+            "img":      "../assets/dist/img/",
+            "fonts":    "../assets/dist/fonts/",
+            "js":       "../assets/dist/js/",
+            "jsLib":    "../assets/dist/js/lib",
+            "jsMin":    "../assets/dist/js/*.min.js"
+        }
+    },
+
+    "layouts": {
+        "dir":          "../layouts/",
+        "src": {
+            "scss":     "../layouts/**/*.scss",
+            "js":       "../layouts/**/!(*.min).js"
+        },
+        "dist": {
+            "css":      "../layouts/**/*.css",
+            "js":       "../layouts/**/*.js",
+            "cssMin":   "../layouts/**/*.min.css",
+            "jsMin":    "../layouts/**/*.min.js"
+        }
+    },
+
+    "php": {
+        "src":          "../**/*.php"
+    }
+}

@@ -3,5 +3,8 @@ Pilo'Press Gulp Config containing various front-end scripts.
 
 ## 🔨 Scripts
 
-### 🖼 Image
-- To compress image assets, use `npm run compress-img`
+### 🖼 Images
+- To compress images, use `npm run compress-img`
+
+### 🖼 Fonts
+- To convert foots, use `npm run convert-fonts`
