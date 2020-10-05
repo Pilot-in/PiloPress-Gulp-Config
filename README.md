@@ -7,7 +7,11 @@ Pilo'Press Gulp Config containing various front-end scripts.
 ## 🔨 Scripts
 
 ### 🖼 Images
-- To compress images, use `gulp compress-img`
+- Put your uncompressed images (jpg, png, svg, gif) in the `assets/src/img` folder
+- To compress images, use this command: `npm run gulp compress-img` in your terminal
+- Compressed images will be in the `assets/dist/img` folder
 
 ### ✒ Fonts
-- To convert foots, use `gulp convert-fonts`
+- Put your unconverted fonts (ttf) in the `assets/src/fonts` folder
+- To convert fonts, use this command: `npm run gulp convert-fonts` in your terminal
+- Converted fonts will be in the `assets/dist/fonts` folder

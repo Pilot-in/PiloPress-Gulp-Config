@@ -14,5 +14,5 @@ const main = gulp.series(compile, server);
 
 /** Gulp Tasks */
 gulp.task('default', main); // "gulp"
-gulp.task('compress-image', images); // "gulp compress-img"
+gulp.task('compress-img', images); // "gulp compress-img"
 gulp.task('convert-fonts', fonts); // "gulp convert-fonts"
